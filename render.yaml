@@ -1,0 +1,11 @@
+services:
+    -   type: web
+        name: delivery-service
+        env: docker
+        region: oregon
+        plan: free
+        branch: main
+        dockerfilePath: Dockerfile
+        envVars:
+            -   key: PORT
+                value: 8080
