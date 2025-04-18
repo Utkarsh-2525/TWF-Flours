@@ -2,7 +2,7 @@ package com.utkarsh2573.assignment.model;
 
 import java.util.Map;
 
-public class OrderRequest {
+public class ProductRequest {
     private Map<String, Integer> products;
 
     public Map<String, Integer> getProducts() {
